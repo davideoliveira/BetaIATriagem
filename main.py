@@ -24,7 +24,6 @@ def identifica_face():
         if len(faces) != 0:
             break
 
-    video_capture.release()
     cv2.destroyAllWindows()
     return True
 
